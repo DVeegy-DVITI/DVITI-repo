@@ -8,3 +8,9 @@ C:\Users\tibov\Exercism\csharp\CommonCode\CommonCode\obj\Debug\CommonCode.csproj
 C:\Users\tibov\Exercism\csharp\CommonCode\CommonCode\obj\Debug\CommonCode.csproj.CoreCompileInputs.cache
 C:\Users\tibov\Exercism\csharp\CommonCode\CommonCode\obj\Debug\CommonCode.dll
 C:\Users\tibov\Exercism\csharp\CommonCode\CommonCode\obj\Debug\CommonCode.pdb
+C:\1.0-Files\1.5-Github\DVITI-repository-root\DVITI-repo\CommonCode\CommonCode\bin\Debug\CommonCode.dll
+C:\1.0-Files\1.5-Github\DVITI-repository-root\DVITI-repo\CommonCode\CommonCode\bin\Debug\CommonCode.pdb
+C:\1.0-Files\1.5-Github\DVITI-repository-root\DVITI-repo\CommonCode\CommonCode\obj\Debug\CommonCode.csproj.AssemblyReference.cache
+C:\1.0-Files\1.5-Github\DVITI-repository-root\DVITI-repo\CommonCode\CommonCode\obj\Debug\CommonCode.csproj.CoreCompileInputs.cache
+C:\1.0-Files\1.5-Github\DVITI-repository-root\DVITI-repo\CommonCode\CommonCode\obj\Debug\CommonCode.dll
+C:\1.0-Files\1.5-Github\DVITI-repository-root\DVITI-repo\CommonCode\CommonCode\obj\Debug\CommonCode.pdb

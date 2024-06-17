@@ -1,44 +1,44 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\",
+  "WorkspaceRootPath": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|c:\\1.0-files\\1.3-portfolio\\2.1-business-app-projects\\personal_libraries\\commoncode\\commoncode\\interfaces\\ibusinessruleevaluationstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|c:\\1.0-files\\1.5-github\\dviti-repository-root\\dviti-repo\\commoncode\\commoncode\\interfaces\\ibusinessruleevaluationstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\interfaces\\ibusinessruleevaluationstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\commoncode\\interfaces\\ibusinessrulewithidentifierstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\commoncode\\interfaces\\ibusinessrulewithidentifierstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\interfaces\\ibusinessrulewithidentifierstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\commoncode\\interfaces\\ibusinessrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\commoncode\\interfaces\\ibusinessrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\interfaces\\ibusinessrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\commoncode\\businessrules\\businessrulebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\commoncode\\businessrules\\businessrulebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\businessrules\\businessrulebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\commoncode\\businessrules\\businessrulefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\commoncode\\businessrules\\businessrulefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\businessrules\\businessrulefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\commoncode\\businessrules\\businessrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\commoncode\\businessrules\\businessrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\businessrules\\businessrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\commoncode\\businessrules\\businessrulemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\commoncode\\businessrules\\businessrulemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\businessrules\\businessrulemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\commoncode\\personalcodingstandards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\commoncode\\personalcodingstandards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\personalcodingstandards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|CommonCode||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\commoncode\\businessrules\\strategy_implementations\\strategydoestargetstringcontainpattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\commoncode\\businessrules\\strategy_implementations\\strategydoestargetstringcontainpattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\businessrules\\strategy_implementations\\strategydoestargetstringcontainpattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -49,12 +49,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -63,9 +59,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "IBusinessRuleEvaluationStrategy.cs",
-              "DocumentMoniker": "C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\CommonCode\\Interfaces\\IBusinessRuleEvaluationStrategy.cs",
+              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Interfaces\\IBusinessRuleEvaluationStrategy.cs",
               "RelativeDocumentMoniker": "CommonCode\\Interfaces\\IBusinessRuleEvaluationStrategy.cs",
-              "ToolTip": "C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\CommonCode\\Interfaces\\IBusinessRuleEvaluationStrategy.cs",
+              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Interfaces\\IBusinessRuleEvaluationStrategy.cs",
               "RelativeToolTip": "CommonCode\\Interfaces\\IBusinessRuleEvaluationStrategy.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -76,9 +72,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "CommonCode",
-              "DocumentMoniker": "C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\CommonCode\\CommonCode.csproj",
+              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\CommonCode.csproj",
               "RelativeDocumentMoniker": "CommonCode\\CommonCode.csproj",
-              "ToolTip": "C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\CommonCode\\CommonCode.csproj",
+              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\CommonCode.csproj",
               "RelativeToolTip": "CommonCode\\CommonCode.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-05-27T13:47:57.335Z"
@@ -87,9 +83,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "IBusinessRule.cs",
-              "DocumentMoniker": "C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\CommonCode\\Interfaces\\IBusinessRule.cs",
+              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Interfaces\\IBusinessRule.cs",
               "RelativeDocumentMoniker": "CommonCode\\Interfaces\\IBusinessRule.cs",
-              "ToolTip": "C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\CommonCode\\Interfaces\\IBusinessRule.cs",
+              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Interfaces\\IBusinessRule.cs",
               "RelativeToolTip": "CommonCode\\Interfaces\\IBusinessRule.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -99,9 +95,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "BusinessRuleManager.cs",
-              "DocumentMoniker": "C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\CommonCode\\BusinessRules\\BusinessRuleManager.cs",
+              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\BusinessRuleManager.cs",
               "RelativeDocumentMoniker": "CommonCode\\BusinessRules\\BusinessRuleManager.cs",
-              "ToolTip": "C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\CommonCode\\BusinessRules\\BusinessRuleManager.cs",
+              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\BusinessRuleManager.cs",
               "RelativeToolTip": "CommonCode\\BusinessRules\\BusinessRuleManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -111,9 +107,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "BusinessRuleBase.cs",
-              "DocumentMoniker": "C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\CommonCode\\BusinessRules\\BusinessRuleBase.cs",
+              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\BusinessRuleBase.cs",
               "RelativeDocumentMoniker": "CommonCode\\BusinessRules\\BusinessRuleBase.cs",
-              "ToolTip": "C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\CommonCode\\BusinessRules\\BusinessRuleBase.cs",
+              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\BusinessRuleBase.cs",
               "RelativeToolTip": "CommonCode\\BusinessRules\\BusinessRuleBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -123,9 +119,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "BusinessRule.cs",
-              "DocumentMoniker": "C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\CommonCode\\BusinessRules\\BusinessRule.cs",
+              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\BusinessRule.cs",
               "RelativeDocumentMoniker": "CommonCode\\BusinessRules\\BusinessRule.cs",
-              "ToolTip": "C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\CommonCode\\BusinessRules\\BusinessRule.cs",
+              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\BusinessRule.cs",
               "RelativeToolTip": "CommonCode\\BusinessRules\\BusinessRule.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -135,9 +131,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "BusinessRuleFactory.cs",
-              "DocumentMoniker": "C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\CommonCode\\BusinessRules\\BusinessRuleFactory.cs",
+              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\BusinessRuleFactory.cs",
               "RelativeDocumentMoniker": "CommonCode\\BusinessRules\\BusinessRuleFactory.cs",
-              "ToolTip": "C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\CommonCode\\BusinessRules\\BusinessRuleFactory.cs",
+              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\BusinessRuleFactory.cs",
               "RelativeToolTip": "CommonCode\\BusinessRules\\BusinessRuleFactory.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -147,9 +143,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "IBusinessRuleWithIdentifierString.cs",
-              "DocumentMoniker": "C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\CommonCode\\Interfaces\\IBusinessRuleWithIdentifierString.cs",
+              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Interfaces\\IBusinessRuleWithIdentifierString.cs",
               "RelativeDocumentMoniker": "CommonCode\\Interfaces\\IBusinessRuleWithIdentifierString.cs",
-              "ToolTip": "C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\CommonCode\\Interfaces\\IBusinessRuleWithIdentifierString.cs",
+              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Interfaces\\IBusinessRuleWithIdentifierString.cs",
               "RelativeToolTip": "CommonCode\\Interfaces\\IBusinessRuleWithIdentifierString.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -159,9 +155,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "PersonalCodingStandards.cs",
-              "DocumentMoniker": "C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\CommonCode\\PersonalCodingStandards.cs",
+              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\PersonalCodingStandards.cs",
               "RelativeDocumentMoniker": "CommonCode\\PersonalCodingStandards.cs",
-              "ToolTip": "C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\CommonCode\\PersonalCodingStandards.cs",
+              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\PersonalCodingStandards.cs",
               "RelativeToolTip": "CommonCode\\PersonalCodingStandards.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAACDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -171,9 +167,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "StrategyDoesTargetStringContainPattern.cs",
-              "DocumentMoniker": "C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\CommonCode\\BusinessRules\\Strategy_Implementations\\StrategyDoesTargetStringContainPattern.cs",
+              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\Strategy_Implementations\\StrategyDoesTargetStringContainPattern.cs",
               "RelativeDocumentMoniker": "CommonCode\\BusinessRules\\Strategy_Implementations\\StrategyDoesTargetStringContainPattern.cs",
-              "ToolTip": "C:\\1.0-Files\\1.3-Portfolio\\2.1-Business-App-Projects\\personal_libraries\\CommonCode\\CommonCode\\BusinessRules\\Strategy_Implementations\\StrategyDoesTargetStringContainPattern.cs",
+              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\Strategy_Implementations\\StrategyDoesTargetStringContainPattern.cs",
               "RelativeToolTip": "CommonCode\\BusinessRules\\Strategy_Implementations\\StrategyDoesTargetStringContainPattern.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAABjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
