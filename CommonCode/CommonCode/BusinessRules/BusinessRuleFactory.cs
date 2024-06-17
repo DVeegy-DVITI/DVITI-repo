@@ -51,7 +51,7 @@ namespace CommonCode.BusinessRules
         // [STATIC Method members]
         // [INSTANCE Method members]
         /// <summary> Exposes a Manufacture method with datachecks for Business Rules.</summary>
-        public BusinessRule CreateBusinessRule(string identifier, IBusinessRuleEvaluationStrategy evaluationStrategy/*, Func<dynamic, dynamic> evaluationLogic*/)
+        public BusinessRule CreateBusinessRule(string identifier, IBusinessRuleEvaluationStrategy<dynamic, dynamic> evaluationStrategy/*, Func<dynamic, dynamic> evaluationLogic*/)
         {
             // [Define Segment] Declare and Intialise members
             BusinessRule newBusinessRule = default;

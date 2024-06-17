@@ -51,7 +51,7 @@ namespace CommonCode.BusinessRules
         // [STATIC Method members]
         // [INSTANCE Method members]
         /// <summary> Checks if a generic business rule is a duplicate in the all-instances-set and throws an error if so.</summary>
-        public virtual void CheckIsDuplicateGenericly<T>(T targetOfCheck, BusinessRule<TInput, TOutput>.GenerateIdentifierString<IBusinessRuleWithIdentifierString> receivedGetIdentifierStringLogic)
+        public virtual void CheckIsDuplicateGenericly<T>(T targetOfCheck, BusinessRule.GenerateIdentifierString<IBusinessRuleWithIdentifierString> receivedGetIdentifierStringLogic)
         where T : IBusinessRuleWithIdentifierString
         {
             bool wasItemAdded = BusinessRules.Add(targetOfCheck);

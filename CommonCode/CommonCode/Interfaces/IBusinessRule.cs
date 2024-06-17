@@ -1,8 +1,8 @@
 ﻿namespace CommonCode.BusinessRules
 {
     /// <summary> Type guarantee for having a Business rule Evaluation strategy and Mounting point for ISP interfaces.</summary>
-    public interface IBusinessRule<TInput, TOutput> : IBusinessRuleWithIdentifierString
+    public interface IBusinessRule : IBusinessRuleWithIdentifierString
     {
-        IBusinessRuleEvaluationStrategy<TInput, TOutput> EvaluationStrategy { get; }
+        IBusinessRuleEvaluationStrategy<dynamic, dynamic> EvaluationStrategy { get; }
     }
 }
