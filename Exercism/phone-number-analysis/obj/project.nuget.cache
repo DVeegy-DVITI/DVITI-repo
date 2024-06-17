@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QL3muAGLztZ8FtcGS+1i3ZFoHZXg07TIjzIq2/QDPSunklBQe9v+uWi/6y8xEjL72tKKH/DZWDNhUJLn3nCVwA==",
+  "dgSpecHash": "kSs1kjsyL72qw4qJ9Y8FuvfsMsRe9AymGO28s8+qhUPpMcam4B0UC2UtCmtInlSL6z422/DSPVut1AosYE70GQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tibov\\Exercism\\csharp\\phone-number-analysis\\PhoneNumberAnalysis.csproj",
+  "projectFilePath": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\Exercism\\phone-number-analysis\\PhoneNumberAnalysis.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tibov\\.nuget\\packages\\exercism.tests\\0.1.0-beta1\\exercism.tests.0.1.0-beta1.nupkg.sha512",
     "C:\\Users\\tibov\\.nuget\\packages\\microsoft.codecoverage\\16.8.3\\microsoft.codecoverage.16.8.3.nupkg.sha512",
