@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\Exercism\\phone-number-analysis\\PhoneNumberAnalysis.csproj": {}
+    "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\CommonCode.csproj": {}
   },
   "projects": {
-    "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\Exercism\\phone-number-analysis\\PhoneNumberAnalysis.csproj": {
+    "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\CommonCode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\Exercism\\phone-number-analysis\\PhoneNumberAnalysis.csproj",
-        "projectName": "PhoneNumberAnalysis",
-        "projectPath": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\Exercism\\phone-number-analysis\\PhoneNumberAnalysis.csproj",
+        "projectUniqueName": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\CommonCode.csproj",
+        "projectName": "CommonCode",
+        "projectPath": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\CommonCode.csproj",
         "packagesPath": "C:\\Users\\tibov\\.nuget\\packages\\",
-        "outputPath": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\Exercism\\phone-number-analysis\\obj\\",
+        "outputPath": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tibov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,21 +45,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Exercism.Tests": {
+            "Microsoft.CSharp": {
               "target": "Package",
-              "version": "[0.1.0-beta1, )"
+              "version": "[4.7.0, )"
             },
-            "Microsoft.NET.Test.Sdk": {
+            "System.Data.DataSetExtensions": {
               "target": "Package",
-              "version": "[16.8.3, )"
-            },
-            "xunit": {
-              "target": "Package",
-              "version": "[2.4.1, )"
-            },
-            "xunit.runner.visualstudio": {
-              "target": "Package",
-              "version": "[2.4.3, )"
+              "version": "[4.5.0, )"
             }
           },
           "imports": [

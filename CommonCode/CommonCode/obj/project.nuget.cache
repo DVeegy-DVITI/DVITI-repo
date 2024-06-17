@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "gy1l0zFwOpipFsplEiQ4q6cbQCmlX1ZbS9xcfJ4tOocroX1M+xCTmR7Db2WCHButGdM79cy+jo7ne8JpiZBdSQ==",
+  "success": true,
+  "projectFilePath": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\CommonCode.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tibov\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\tibov\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

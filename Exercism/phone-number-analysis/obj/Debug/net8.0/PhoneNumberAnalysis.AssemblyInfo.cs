@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PhoneNumberAnalysis")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f83c615b3a4c1cff06a1a53e3cfc6466d98111d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a87f6bd9ca01e213038607810b41e084ef2b8dfe")]
 [assembly: System.Reflection.AssemblyProductAttribute("PhoneNumberAnalysis")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PhoneNumberAnalysis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

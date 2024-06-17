@@ -1,0 +1,10 @@
+C:\1.0-Files\1.5-Github\DVITI-repository-root\DVITI-repo\CommonCode\CommonCode\bin\Debug\net8.0\CommonCode.deps.json
+C:\1.0-Files\1.5-Github\DVITI-repository-root\DVITI-repo\CommonCode\CommonCode\bin\Debug\net8.0\CommonCode.dll
+C:\1.0-Files\1.5-Github\DVITI-repository-root\DVITI-repo\CommonCode\CommonCode\bin\Debug\net8.0\CommonCode.pdb
+C:\1.0-Files\1.5-Github\DVITI-repository-root\DVITI-repo\CommonCode\CommonCode\obj\Debug\net8.0\CommonCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\1.0-Files\1.5-Github\DVITI-repository-root\DVITI-repo\CommonCode\CommonCode\obj\Debug\net8.0\CommonCode.csproj.CoreCompileInputs.cache
+C:\1.0-Files\1.5-Github\DVITI-repository-root\DVITI-repo\CommonCode\CommonCode\obj\Debug\net8.0\CommonCode.sourcelink.json
+C:\1.0-Files\1.5-Github\DVITI-repository-root\DVITI-repo\CommonCode\CommonCode\obj\Debug\net8.0\CommonCode.dll
+C:\1.0-Files\1.5-Github\DVITI-repository-root\DVITI-repo\CommonCode\CommonCode\obj\Debug\net8.0\refint\CommonCode.dll
+C:\1.0-Files\1.5-Github\DVITI-repository-root\DVITI-repo\CommonCode\CommonCode\obj\Debug\net8.0\CommonCode.pdb
+C:\1.0-Files\1.5-Github\DVITI-repository-root\DVITI-repo\CommonCode\CommonCode\obj\Debug\net8.0\ref\CommonCode.dll
