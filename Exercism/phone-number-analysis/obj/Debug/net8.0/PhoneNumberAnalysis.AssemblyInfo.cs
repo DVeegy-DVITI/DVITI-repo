@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PhoneNumberAnalysis")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f83c615b3a4c1cff06a1a53e3cfc6466d98111d3")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efb8b7bf484ff6ee9faeb4081e1eb96644bc3b1d")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("PhoneNumberAnalysis")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PhoneNumberAnalysis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

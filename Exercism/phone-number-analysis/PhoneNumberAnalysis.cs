@@ -2,15 +2,18 @@ using Microsoft.VisualStudio.TestPlatform.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
-using CommonCode.BusinessRules;
 using System.Reflection;
+using CommonCode.BusinessRules;
+using PhoneNumberAnalysis;
 
 public static class PhoneNumber
 {
     const string PHONENUMBER_FORMAT = "NNN-NNN-NNNN";
-    const string PHONENUMBER_NEWYORK_DIALCODE = "212";
-    private readonly static (int fakeNumberStartPosition, int fakeNumberEndPosition) PHONENUMBER_ISFAKE_TARGETRANGE = (5, 7);
-    const int PHONENUMBER_ISFAKE_AMOUNTOFLASTNUMBERS= 4;
+    const string PHONENUMBER_ISNEWYORK_DIALCODEPREFIX = "212";
+    private readonly static (int newYorkNumberStartPosition, int newYorkNumberLength) PHONENUMBER_ISNEWYORK_TARGETSUBSTRINGSTARTANDLENGTH = (0, 3);
+    private readonly static (int fakeNumberStartPosition, int fakeNumberLength) PHONENUMBER_ISFAKE_TARGETSUBSTRINGSTARTANDLENGTH = (4, 3);
+    private readonly static string PHONENUMBER_ISFAKE_TARGET_DIALCODECOMPONENT = "555";
+    const int PHONENUMBER_GETLOCALNUMBER_AMOUNTOFLASTDIGITSFORLOCALNUMBER= 4;
     const string PHONENUMBER_ISFAKE_STRATEGY_IDENTIFIER = "Do positions 5 to 7 contain 555 for fake number";
     const string PHONENUMBER_NEWYORK_STRATEGY_IDENTIFIER = "Is Dialing Code New York 212";
     const string PHONENUMBER_GETLOCALNUMBER_STRATEGY_IDENTIFIER = "Get the local number, which are the last 4 digits";
@@ -22,74 +25,53 @@ public static class PhoneNumber
         // [Define Segment] Declare and Intialise members
         (bool IsNewYork, bool IsFake, string LocalNumber) output = default;
 
-        BusinessRule[] businessRules = new BusinessRule[]
-        {
-            DefineBusinessRuleIsNewYork(phoneNumber),
-            DefineBusinessRuleIsFakeNumber(phoneNumber),
-            DefineBusinessRuleGetLocalNumber(phoneNumber)
-        };
-
-        static object[] DeconstructTuple<T1, T2, T3>((T1, T2, T3) tuple)
-        {
-            return new object[] { tuple.Item1, tuple.Item2, tuple.Item3 };
-        }
-
-        static (T1, T2, T3) ReconstructTuple<T1, T2, T3>(object[] values)
-        {
-            if (values.Length != 3) throw new ArgumentException("Array length must be 3");
-            return ((T1)values[0], (T2)values[1], (T3)values[2]);
-        }
-
-        static object[] UpdateTupleLikeArray(object[] deconstructedTuple, BusinessRule[] businessRules)
-        {
-            for (int i = 0; i < businessRules.Length; i++)
-            {
-                BusinessRule rule = businessRules[i];
-                // Process each business rule
-                deconstructedTuple[i] = rule.EvaluationStrategy.EvaluatedResult;
-            }
-            return deconstructedTuple;
-        }
-
-        //TODO: Move strategy implem to this project (specific ones belong in impl side vs .dll side)
+        output.IsNewYork = DefineBusinessRuleIsNewYork(phoneNumber).EvaluationStrategy.ExecuteStrategy();
+        output.IsFake = DefineBusinessRuleIsFakeNumber(phoneNumber).EvaluationStrategy.ExecuteStrategy();
+        output.LocalNumber = DefineBusinessRuleGetLocalNumber(phoneNumber).EvaluationStrategy.ExecuteStrategy();
 
         // [Process Segment] Employ defined members in processes
-        // TODO: Apply the Strategy concept, Object cannot be guessed to be a string here
-        object[] deconstructedTupleEmpty = DeconstructTuple(output);
-        object[] deconstructedTupleInitialized = UpdateTupleLikeArray(deconstructedTupleEmpty, businessRules);
-        output = ReconstructTuple<bool, bool, string>(deconstructedTupleInitialized);
 
         // [Conclude Segment] Execute the method's intent
         return output;
     }
-    private static BusinessRule DefineBusinessRuleIsNewYork(string phoneNumber)
+    public delegate bool BusinessRuleIsNewYorkSignature((string, string) input);
+    private static BusinessRule<(string, int, int, string), bool> DefineBusinessRuleIsNewYork(string phoneNumber)
     {
-        BusinessRule businessRule = default;
-        IBusinessRuleEvaluationStrategy strategy = new StrategyDoesTargetStringContainPattern(phoneNumber, PHONENUMBER_NEWYORK_DIALCODE);
-        businessRule = BUSINESSRULE_FACTORY.CreateBusinessRule(PHONENUMBER_NEWYORK_STRATEGY_IDENTIFIER, strategy);
+        BusinessRule<(string,int, int, string), bool> businessRule = default;
+        IBusinessRuleEvaluationStrategy<(string, int, int, string), bool> createdStrategy = new StrategyDoesTargetSubstringEqualPattern(
+            phoneNumber,
+            PHONENUMBER_ISNEWYORK_TARGETSUBSTRINGSTARTANDLENGTH.newYorkNumberStartPosition,
+            PHONENUMBER_ISNEWYORK_TARGETSUBSTRINGSTARTANDLENGTH.newYorkNumberLength, 
+            PHONENUMBER_ISNEWYORK_DIALCODEPREFIX
+            );
+        businessRule = BUSINESSRULE_FACTORY.CreateBusinessRule(PHONENUMBER_NEWYORK_STRATEGY_IDENTIFIER, createdStrategy);
+        return businessRule;
+    }
+    private static BusinessRule<(string, int, int, string), bool> DefineBusinessRuleIsFakeNumber(string phoneNumber)
+    {
+        BusinessRule<(string, int ,int, string), bool> businessRule = default;
+        IBusinessRuleEvaluationStrategy<(string, int, int, string), bool> strategy = new StrategyDoesTargetSubstringEqualPattern(
+            phoneNumber,
+            PHONENUMBER_ISFAKE_TARGETSUBSTRINGSTARTANDLENGTH.fakeNumberStartPosition,
+            PHONENUMBER_ISFAKE_TARGETSUBSTRINGSTARTANDLENGTH.fakeNumberLength, 
+            PHONENUMBER_ISFAKE_TARGET_DIALCODECOMPONENT
+            );
+        businessRule = BUSINESSRULE_FACTORY.CreateBusinessRule(PHONENUMBER_ISFAKE_STRATEGY_IDENTIFIER, strategy);
         //TODO: Move strategy implem to this project (specific ones belong in impl side vs .dll side)
         return businessRule;
     }
-    private static BusinessRule DefineBusinessRuleIsFakeNumber(string phoneNumber)
+    private static BusinessRule<string, string> DefineBusinessRuleGetLocalNumber(string phoneNumber)
     {
-        BusinessRule businessRule = default;
-        IBusinessRuleEvaluationStrategy strategy = new StrategyDoesTargetStringContainPattern(phoneNumber, PHONENUMBER_NEWYORK_DIALCODE);
-        businessRule = BUSINESSRULE_FACTORY.CreateBusinessRule(PHONENUMBER_NEWYORK_STRATEGY_IDENTIFIER, strategy);
-        //TODO: Move strategy implem to this project (specific ones belong in impl side vs .dll side)
-        return businessRule;
-    }
-    private static BusinessRule DefineBusinessRuleGetLocalNumber(string phoneNumber)
-    {
-        BusinessRule businessRule = default;
-        IBusinessRuleEvaluationStrategy strategy = new StrategyDoesTargetStringContainPattern(phoneNumber, PHONENUMBER_NEWYORK_DIALCODE);
-        businessRule = BUSINESSRULE_FACTORY.CreateBusinessRule(PHONENUMBER_NEWYORK_STRATEGY_IDENTIFIER, strategy);
+        BusinessRule<string, string> businessRule = default;
+        IBusinessRuleEvaluationStrategy<string, string> strategy = new StrategyGetLocalNumber(phoneNumber);
+        businessRule = BUSINESSRULE_FACTORY.CreateBusinessRule(PHONENUMBER_GETLOCALNUMBER_STRATEGY_IDENTIFIER, strategy);
         //TODO: Move strategy implem to this project (specific ones belong in impl side vs .dll side)
         return businessRule;
     }
 
     public static bool IsFake((bool IsNewYork, bool IsFake, string LocalNumber) phoneNumberInfo)
     {
-        throw new NotImplementedException($"Please implement the (static) PhoneNumber.IsFake() method");
+        return phoneNumberInfo.IsFake;
     }
 }
 

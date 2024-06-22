@@ -13,7 +13,7 @@
 
   <ItemGroup>
     <Reference Include="CommonCode">
-      <HintPath>..\..\..\..\..\1.0-Files\1.3-Portfolio\2.1-Business-App-Projects\personal_libraries\CommonCode\CommonCode\bin\Debug\CommonCode.dll</HintPath>
+      <HintPath>..\..\CommonCode\CommonCode\bin\Debug\net8.0\CommonCode.dll</HintPath>
     </Reference>
   </ItemGroup>
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tibov\\Exercism\\csharp\\log-levels\\LogLevels.csproj": {}
+    "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\Exercism\\log-levels\\LogLevels.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tibov\\Exercism\\csharp\\log-levels\\LogLevels.csproj": {
+    "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\Exercism\\log-levels\\LogLevels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tibov\\Exercism\\csharp\\log-levels\\LogLevels.csproj",
+        "projectUniqueName": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\Exercism\\log-levels\\LogLevels.csproj",
         "projectName": "LogLevels",
-        "projectPath": "C:\\Users\\tibov\\Exercism\\csharp\\log-levels\\LogLevels.csproj",
+        "projectPath": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\Exercism\\log-levels\\LogLevels.csproj",
         "packagesPath": "C:\\Users\\tibov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tibov\\Exercism\\csharp\\log-levels\\obj\\",
+        "outputPath": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\Exercism\\log-levels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tibov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

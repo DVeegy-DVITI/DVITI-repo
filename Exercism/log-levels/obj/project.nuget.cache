@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E2WZRE+pF/cfqJWvJm3KkHAGYEbVtRc+7tYJMsDxfFRS0hyFysWwCX+uVF9wvzp9aPrLl2h9hOK2NrpT/IpkUA==",
+  "dgSpecHash": "DbpZcYSrYBSWnXfZ783NRskkRxiu6xkgHaVx6dubqvc1N1t+OuMDLk765O+uN0d/Be/FaOIqakYLPxx5zJs7Pw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tibov\\Exercism\\csharp\\log-levels\\LogLevels.csproj",
+  "projectFilePath": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\Exercism\\log-levels\\LogLevels.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tibov\\.nuget\\packages\\exercism.tests\\0.1.0-beta1\\exercism.tests.0.1.0-beta1.nupkg.sha512",
     "C:\\Users\\tibov\\.nuget\\packages\\microsoft.codecoverage\\16.8.3\\microsoft.codecoverage.16.8.3.nupkg.sha512",
