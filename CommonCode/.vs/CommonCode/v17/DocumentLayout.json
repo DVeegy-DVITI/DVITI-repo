@@ -3,79 +3,36 @@
   "WorkspaceRootPath": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\",
   "Documents": [
     {
-<<<<<<< Updated upstream
-=======
-      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|c:\\1.0-files\\1.5-github\\dviti-repository-root\\dviti-repo\\commoncode\\commoncode\\documentation\\commentsbasedarchitecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\documentation\\commentsbasedarchitecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|c:\\1.0-files\\1.5-github\\dviti-repository-root\\dviti-repo\\commoncode\\commoncode\\businessrules\\businessrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\businessrules\\businessrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|c:\\1.0-files\\1.5-github\\dviti-repository-root\\dviti-repo\\commoncode\\commoncode\\businessrules\\strategy_implementations\\strategydoestargetsubstringequalpattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\businessrules\\strategy_implementations\\strategydoestargetsubstringequalpattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|c:\\1.0-files\\1.5-github\\dviti-repository-root\\dviti-repo\\commoncode\\commoncode\\businessrules\\businessrulebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\businessrules\\businessrulebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
->>>>>>> Stashed changes
-      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|c:\\1.0-files\\1.5-github\\dviti-repository-root\\dviti-repo\\commoncode\\commoncode\\interfaces\\ibusinessruleevaluationstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\interfaces\\ibusinessruleevaluationstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-<<<<<<< Updated upstream
-      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\commoncode\\interfaces\\ibusinessrulewithidentifierstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\interfaces\\ibusinessrulewithidentifierstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\commoncode\\interfaces\\ibusinessrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\interfaces\\ibusinessrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\commoncode\\businessrules\\businessrulebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\businessrules\\businessrulebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\commoncode\\businessrules\\businessrulefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\businessrules\\businessrulefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\commoncode\\businessrules\\businessrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\businessrules\\businessrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\commoncode\\businessrules\\businessrulemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\businessrules\\businessrulemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\commoncode\\personalcodingstandards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\personalcodingstandards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|CommonCode||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\commoncode\\businessrules\\strategy_implementations\\strategydoestargetstringcontainpattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\businessrules\\strategy_implementations\\strategydoestargetstringcontainpattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|c:\\1.0-files\\1.5-github\\dviti-repository-root\\dviti-repo\\commoncode\\commoncode\\interfaces\\ibusinessrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\interfaces\\ibusinessrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|c:\\1.0-files\\1.5-github\\dviti-repository-root\\dviti-repo\\commoncode\\commoncode\\interfaces\\ibusinessrulewithidentifierstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\interfaces\\ibusinessrulewithidentifierstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|c:\\1.0-files\\1.5-github\\dviti-repository-root\\dviti-repo\\commoncode\\commoncode\\utility\\businessrulemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\utility\\businessrulemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|c:\\1.0-files\\1.5-github\\dviti-repository-root\\dviti-repo\\commoncode\\commoncode\\utility\\businessrulefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\utility\\businessrulefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|c:\\1.0-files\\1.5-github\\dviti-repository-root\\dviti-repo\\commoncode\\commoncode\\utility\\businessrulemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\utility\\businessrulemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> Stashed changes
+      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|c:\\1.0-files\\1.5-github\\dviti-repository-root\\dviti-repo\\commoncode\\commoncode\\documentation\\todos_actual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\documentation\\todos_actual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|c:\\1.0-files\\1.5-github\\dviti-repository-root\\dviti-repo\\commoncode\\commoncode\\documentation\\commentsbasedarchitecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\documentation\\commentsbasedarchitecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|c:\\1.0-files\\1.5-github\\dviti-repository-root\\dviti-repo\\commoncode\\commoncode\\documentation\\todos_template.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\documentation\\todos_template.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|c:\\1.0-files\\1.5-github\\dviti-repository-root\\dviti-repo\\commoncode\\commoncode\\businessrules\\businessrulebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\businessrules\\businessrulebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|c:\\1.0-files\\1.5-github\\dviti-repository-root\\dviti-repo\\commoncode\\commoncode\\businessrules\\strategy_implementations\\strategydoestargetsubstringequalpattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\businessrules\\strategy_implementations\\strategydoestargetsubstringequalpattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|c:\\1.0-files\\1.5-github\\dviti-repository-root\\dviti-repo\\commoncode\\commoncode\\businessrules\\businessrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E027C3-EFDF-4530-BA1F-10AD9E3D0EC8}|CommonCode\\CommonCode.csproj|solutionrelative:commoncode\\businessrules\\businessrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -85,239 +42,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TODOs_Template.cs",
+              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Documentation\\TODOs_Template.cs",
+              "RelativeDocumentMoniker": "CommonCode\\Documentation\\TODOs_Template.cs",
+              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Documentation\\TODOs_Template.cs",
+              "RelativeToolTip": "CommonCode\\Documentation\\TODOs_Template.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T11:33:01.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TODOs_Actual.cs",
+              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Documentation\\TODOs_Actual.cs",
+              "RelativeDocumentMoniker": "CommonCode\\Documentation\\TODOs_Actual.cs",
+              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Documentation\\TODOs_Actual.cs",
+              "RelativeToolTip": "CommonCode\\Documentation\\TODOs_Actual.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T11:29:45.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BusinessRuleManager.cs",
+              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Utility\\BusinessRuleManager.cs",
+              "RelativeDocumentMoniker": "CommonCode\\Utility\\BusinessRuleManager.cs",
+              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Utility\\BusinessRuleManager.cs",
+              "RelativeToolTip": "CommonCode\\Utility\\BusinessRuleManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T11:25:59.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StrategyDoesTargetSubstringEqualPattern.cs",
+              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\Strategy_Implementations\\StrategyDoesTargetSubstringEqualPattern.cs",
+              "RelativeDocumentMoniker": "CommonCode\\BusinessRules\\Strategy_Implementations\\StrategyDoesTargetSubstringEqualPattern.cs",
+              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\Strategy_Implementations\\StrategyDoesTargetSubstringEqualPattern.cs",
+              "RelativeToolTip": "CommonCode\\BusinessRules\\Strategy_Implementations\\StrategyDoesTargetSubstringEqualPattern.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T10:24:31.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BusinessRule.cs",
+              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\BusinessRule.cs",
+              "RelativeDocumentMoniker": "CommonCode\\BusinessRules\\BusinessRule.cs",
+              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\BusinessRule.cs",
+              "RelativeToolTip": "CommonCode\\BusinessRules\\BusinessRule.cs",
+              "ViewState": "AQIAALcAAAAAAAAAAAAAAAUAAACBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T10:22:48.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BusinessRuleFactory.cs",
+              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Utility\\BusinessRuleFactory.cs",
+              "RelativeDocumentMoniker": "CommonCode\\Utility\\BusinessRuleFactory.cs",
+              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Utility\\BusinessRuleFactory.cs",
+              "RelativeToolTip": "CommonCode\\Utility\\BusinessRuleFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAB9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T10:13:48.335Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-<<<<<<< Updated upstream
-              "Title": "IBusinessRuleEvaluationStrategy.cs",
-              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Interfaces\\IBusinessRuleEvaluationStrategy.cs",
-              "RelativeDocumentMoniker": "CommonCode\\Interfaces\\IBusinessRuleEvaluationStrategy.cs",
-              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Interfaces\\IBusinessRuleEvaluationStrategy.cs",
-              "RelativeToolTip": "CommonCode\\Interfaces\\IBusinessRuleEvaluationStrategy.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T13:45:47.045Z",
-=======
-              "Title": "CommentsBasedArchitecture.cs",
-              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Documentation\\CommentsBasedArchitecture.cs",
-              "RelativeDocumentMoniker": "CommonCode\\Documentation\\CommentsBasedArchitecture.cs",
-              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Documentation\\CommentsBasedArchitecture.cs",
-              "RelativeToolTip": "CommonCode\\Documentation\\CommentsBasedArchitecture.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T16:27:32.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StrategyDoesTargetSubstringEqualPattern.cs",
-              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\Strategy_Implementations\\StrategyDoesTargetSubstringEqualPattern.cs",
-              "RelativeDocumentMoniker": "CommonCode\\BusinessRules\\Strategy_Implementations\\StrategyDoesTargetSubstringEqualPattern.cs",
-              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\Strategy_Implementations\\StrategyDoesTargetSubstringEqualPattern.cs",
-              "RelativeToolTip": "CommonCode\\BusinessRules\\Strategy_Implementations\\StrategyDoesTargetSubstringEqualPattern.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T11:42:05.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BusinessRule.cs",
-              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\BusinessRule.cs",
-              "RelativeDocumentMoniker": "CommonCode\\BusinessRules\\BusinessRule.cs",
-              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\BusinessRule.cs",
-              "RelativeToolTip": "CommonCode\\BusinessRules\\BusinessRule.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T16:42:10.126Z",
->>>>>>> Stashed changes
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-<<<<<<< Updated upstream
-              "Title": "CommonCode",
-              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\CommonCode.csproj",
-              "RelativeDocumentMoniker": "CommonCode\\CommonCode.csproj",
-              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\CommonCode.csproj",
-              "RelativeToolTip": "CommonCode\\CommonCode.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-05-27T13:47:57.335Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IBusinessRule.cs",
-              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Interfaces\\IBusinessRule.cs",
-              "RelativeDocumentMoniker": "CommonCode\\Interfaces\\IBusinessRule.cs",
-              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Interfaces\\IBusinessRule.cs",
-              "RelativeToolTip": "CommonCode\\Interfaces\\IBusinessRule.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T13:45:46.365Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BusinessRuleManager.cs",
-              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\BusinessRuleManager.cs",
-              "RelativeDocumentMoniker": "CommonCode\\BusinessRules\\BusinessRuleManager.cs",
-              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\BusinessRuleManager.cs",
-              "RelativeToolTip": "CommonCode\\BusinessRules\\BusinessRuleManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T13:45:43.627Z"
-=======
-              "Title": "BusinessRuleManager.cs",
-              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Utility\\BusinessRuleManager.cs",
-              "RelativeDocumentMoniker": "CommonCode\\Utility\\BusinessRuleManager.cs",
-              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Utility\\BusinessRuleManager.cs",
-              "RelativeToolTip": "CommonCode\\Utility\\BusinessRuleManager.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAQwMEAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T16:41:17.239Z",
-              "EditorCaption": ""
->>>>>>> Stashed changes
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "BusinessRuleBase.cs",
               "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\BusinessRuleBase.cs",
               "RelativeDocumentMoniker": "CommonCode\\BusinessRules\\BusinessRuleBase.cs",
               "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\BusinessRuleBase.cs",
               "RelativeToolTip": "CommonCode\\BusinessRules\\BusinessRuleBase.cs",
-<<<<<<< Updated upstream
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "ViewState": "AQIAAKsAAAAAAAAAAAAAAAQAAAB/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T13:45:30.263Z"
-=======
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T16:39:50.525Z",
-              "EditorCaption": ""
->>>>>>> Stashed changes
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-<<<<<<< Updated upstream
-              "Title": "BusinessRule.cs",
-              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\BusinessRule.cs",
-              "RelativeDocumentMoniker": "CommonCode\\BusinessRules\\BusinessRule.cs",
-              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\BusinessRule.cs",
-              "RelativeToolTip": "CommonCode\\BusinessRules\\BusinessRule.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T13:45:33.515Z"
-=======
-              "Title": "IBusinessRule.cs",
-              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Interfaces\\IBusinessRule.cs",
-              "RelativeDocumentMoniker": "CommonCode\\Interfaces\\IBusinessRule.cs",
-              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Interfaces\\IBusinessRule.cs",
-              "RelativeToolTip": "CommonCode\\Interfaces\\IBusinessRule.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T16:33:19.582Z",
+              "WhenOpened": "2024-06-23T10:05:10.804Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BusinessRuleFactory.cs",
-              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Utility\\BusinessRuleFactory.cs",
-              "RelativeDocumentMoniker": "CommonCode\\Utility\\BusinessRuleFactory.cs",
-              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Utility\\BusinessRuleFactory.cs",
-              "RelativeToolTip": "CommonCode\\Utility\\BusinessRuleFactory.cs",
-              "ViewState": "AQIAAHwAAAAAAAAAAAAQwKEAAAASAAAA",
+              "DocumentIndex": 3,
+              "Title": "CommentsBasedArchitecture.cs",
+              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Documentation\\CommentsBasedArchitecture.cs",
+              "RelativeDocumentMoniker": "CommonCode\\Documentation\\CommentsBasedArchitecture.cs",
+              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Documentation\\CommentsBasedArchitecture.cs",
+              "RelativeToolTip": "CommonCode\\Documentation\\CommentsBasedArchitecture.cs",
+              "ViewState": "AQIAAM8AAAAAAAAAAAAAAN0AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T11:24:33.717Z",
+              "WhenOpened": "2024-06-23T10:03:51.157Z",
               "EditorCaption": ""
->>>>>>> Stashed changes
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-<<<<<<< Updated upstream
-              "Title": "BusinessRuleFactory.cs",
-              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\BusinessRuleFactory.cs",
-              "RelativeDocumentMoniker": "CommonCode\\BusinessRules\\BusinessRuleFactory.cs",
-              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\BusinessRuleFactory.cs",
-              "RelativeToolTip": "CommonCode\\BusinessRules\\BusinessRuleFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T14:29:14.976Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-=======
-              "Title": "IBusinessRuleEvaluationStrategy.cs",
-              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Interfaces\\IBusinessRuleEvaluationStrategy.cs",
-              "RelativeDocumentMoniker": "CommonCode\\Interfaces\\IBusinessRuleEvaluationStrategy.cs",
-              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Interfaces\\IBusinessRuleEvaluationStrategy.cs",
-              "RelativeToolTip": "CommonCode\\Interfaces\\IBusinessRuleEvaluationStrategy.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T16:26:51.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
->>>>>>> Stashed changes
-              "Title": "IBusinessRuleWithIdentifierString.cs",
-              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Interfaces\\IBusinessRuleWithIdentifierString.cs",
-              "RelativeDocumentMoniker": "CommonCode\\Interfaces\\IBusinessRuleWithIdentifierString.cs",
-              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\Interfaces\\IBusinessRuleWithIdentifierString.cs",
-              "RelativeToolTip": "CommonCode\\Interfaces\\IBusinessRuleWithIdentifierString.cs",
-<<<<<<< Updated upstream
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T14:34:40.207Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PersonalCodingStandards.cs",
-              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\PersonalCodingStandards.cs",
-              "RelativeDocumentMoniker": "CommonCode\\PersonalCodingStandards.cs",
-              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\PersonalCodingStandards.cs",
-              "RelativeToolTip": "CommonCode\\PersonalCodingStandards.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAACDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T14:22:06.763Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "StrategyDoesTargetStringContainPattern.cs",
-              "DocumentMoniker": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\Strategy_Implementations\\StrategyDoesTargetStringContainPattern.cs",
-              "RelativeDocumentMoniker": "CommonCode\\BusinessRules\\Strategy_Implementations\\StrategyDoesTargetStringContainPattern.cs",
-              "ToolTip": "C:\\1.0-Files\\1.5-Github\\DVITI-repository-root\\DVITI-repo\\CommonCode\\CommonCode\\BusinessRules\\Strategy_Implementations\\StrategyDoesTargetStringContainPattern.cs",
-              "RelativeToolTip": "CommonCode\\BusinessRules\\Strategy_Implementations\\StrategyDoesTargetStringContainPattern.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAABjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T14:19:34.46Z"
-=======
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T18:10:33.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
->>>>>>> Stashed changes
             }
           ]
         }

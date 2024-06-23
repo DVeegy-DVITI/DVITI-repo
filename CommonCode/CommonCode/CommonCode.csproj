@@ -42,16 +42,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PersonalCodingStandards.cs" />
+    <Compile Include="BusinessRules\Strategy_Implementations\StrategyDoesTargetSubstringEqualPattern.cs" />
+    <Compile Include="BusinessRules\Strategy_Implementations\StrategyGetLocalNumber.cs" />
+    <Compile Include="Documentation\CommentsBasedArchitecture.cs" />
+    <Compile Include="Documentation\TODOs_Template.cs" />
+    <Compile Include="Documentation\TODOs_Actual.cs" />
     <Compile Include="BusinessRules\BusinessRule.cs" />
     <Compile Include="BusinessRules\BusinessRuleBase.cs" />
-    <Compile Include="BusinessRules\BusinessRuleFactory.cs" />
-    <Compile Include="BusinessRules\BusinessRuleManager.cs" />
-    <Compile Include="BusinessRules\Strategy_Implementations\StrategyDoesTargetStringContainPattern.cs" />
     <Compile Include="Interfaces\IBusinessRuleEvaluationStrategy.cs" />
     <Compile Include="Interfaces\IBusinessRule.cs" />
     <Compile Include="Interfaces\IBusinessRuleWithIdentifierString.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility\BusinessRuleFactory.cs" />
+    <Compile Include="Utility\BusinessRuleManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Documentation\CodeExplanations.docx" />
+    <None Include="Documentation\Personalnotes-Comments_Based_Architecture.md" />
+    <None Include="Documentation\Personalnotes-Comments_Based_Structure.md" />
+    <None Include="Documentation\Personalnotes-Explicit_Inteface_Implementations-Default_Interface_Members.md" />
+    <None Include="Documentation\Personalnotes-Explicit_Interface_Implementations-Default_Interface_Members.md" />
+    <None Include="Documentation\Personalnotes-Interfaces-Abstract_Classes.md" />
+    <None Include="Documentation\Personalnotes-Notes.md" />
+    <None Include="Documentation\Personalnotes-Rules.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

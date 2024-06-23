@@ -5,80 +5,55 @@ using System.Collections.Generic;
 
 namespace CommonCode.Utility
 {
-    /// <summary> Singleton Manager responsible for managing instances after creation.</summary>
+    /// <summary> [Public] class for [business rule manager] as [utility] entity; this encapsulates [The post-creation management of a product, in this case a business rule].</summary>
     public class BusinessRuleManager
     {
-        #region Personal notes
-        #region Intent
-        /// Intent: This sectional structure of the implied logical flow assures SRP-governed coverage of the entire paradigm of C# application development.
-        #endregion
-        #region Notes
-        /// Note: How to collapse all of these regions properly:
-        /// * Go to Tools > Options > Text Editor > C# > Advanced > Outlining and check "Collapse #regions when collapsing to definitions".
-        /// * Perform "collapsing to definitions" by pressing [CTRL + M] and [CTRL + O] to collapse, replace [O] by [P] to expand.
-
-        /// Note: This sectional structure assures that any developer is able to match a specific coding task to any reasonable area of this class.
-        /// Note: This sectional structure also assures that any developer is able to implement any coding task in accordance to a guiding, and verbose structure.
-        /// Note: This sectional structure finally assures me that all existing, and future, development is compliant with my holistic SRP-central coding creed.
-        #endregion
-
-        #region Rules
-        /// Rule: Check the PersonalCodingStandards file whenever possible.
-        /// Reason: There is no back-propagation from the original file to all copy-paste's in all classes.
-        /// 
-        /// Rule: Use explicit interface implementation syntax.
-        /// Reason: Explicit interface implementations cannot be inherited (prevents dependencies), and clearly differ from non-interface members.
-        /// 
-        /// Rule: Avoid using automatic properties.
-        /// Reason: They hide initialization logic that belongs to constructors, and has to be rewritten whenever logic alteration is necessary.
-        /// 
-        /// Rule: Delegate any static and instance variable initialization to the respective constructors.
-        /// Reason: Any architecture is more robust if one scope handles one responsibility; especially because that's a constructor's literal job.
-        #endregion
-        #endregion
-        #region TODO's
-        /// TODO: Decide on a line between governance of general properties (or other members) and responsibility-specific members (f.e. MVC members).
-        #endregion
+        /// Explore the Documentation folder for: todo's, rules, concepts, notes and standards.
 
         #region Backing field members
         /// <structure-section> Centralization of all foundational data-encapsulating declarations; a sole address for any data-related development.</structure-section>
         // [STATIC BACKING FIELD MEMBERS]
-        /// <summary> Private backing field for the Singleton Manager instance.</summary>
+        /// <summary> [Private] static backing field for [business rule manager] internal state; Enabling [this] to [read the manager instance].</summary>
         private static BusinessRuleManager _businessRuleManagerInstance;
+
+        /// <summary> [private] static backing field for [business rule exhaustive collection] internal state; Enabling [this] to [read the collection instance].</summary>
         private static HashSet<IBusinessRuleWithIdentifierString> _businessRules;
 
         // [INSTANCE BACKING FIELD MEMBERS]
+        /// <summary> [_private_public_protected_] instance backing field for [_member_good_title_] internal state; Enabling [_others_anyone_inheritors_this] to [_CRUD_ _member_intent_].</summary>
+
         #endregion
 
-        #region Default static constructor member
+        #region Constructors
+        #region Static-data constructor member
         /// <structure-section> Encapsulation of all foundational static member initializations via this default static constructor.</structure-section>
         // [STATIC CONSTRUCTOR MEMBER]
-        /// <summary> Static constructor encapsulating all static initializations.</summary>
+        /// <summary> default static constructor handling all static member initializations.</summary>
         static BusinessRuleManager()
         {
-            // [Instantiate backing fields]
+            // [Initialize backing fields: only initialization, no declaration or processing!]
             _businessRuleManagerInstance = default;
             _businessRules = new HashSet<IBusinessRuleWithIdentifierString>();
-            // [Instantiate (auto) properties]
         }
+
         #endregion
 
-        #region Argumented instance constructor members
+        #region Instance-data constructor members
         /// <structure-section> Encapsulation of all core instance member initializations via this argumented instance constructor.</structure-section>
         // [INSTANCE CONSTRUCTOR MEMBERS]
-        /// <summary> Private constructor enforcing the Singleton pattern.</summary>
+        /// <summary> argumented instance constructor handling (collectively) all instance member initializations.</summary>
         private BusinessRuleManager()
         {
-            /// TODO: There's no code restriction codeifying the 1:1 relation between Manager and Factory. (anyone could instantiate a Manager; No solution found.)
+            // [Initialize backing fields: only initialization, no declaration or processing!]
         }
+
+        #endregion
         #endregion
 
         #region General property members
         /// <structure-section> Centralization of all core general data-exposing properties; a sole address for any related development.</structure-section>
         // [STATIC GENERAL PROPERTY MEMBERS]
-        /// <summary> Exposes the uniques-only set of all instances.</summary>
-        /// TODO: Mount a repository pattern here
-        public static HashSet<IBusinessRuleWithIdentifierString> BusinessRules { get { return _businessRules; } }
+        /// <summary> [Public] static property for [business rule manager] exposed state; Enabling [others] to [read the manager instance].</summary>
         /// <summary> Exposes retrieval/creation of the Factory instance.</summary>
         public static BusinessRuleManager BusinessRuleManagerInstance
         {
@@ -92,16 +67,25 @@ namespace CommonCode.Utility
             }
         }
 
+        /// <summary> [Public] static property for [business rule exhaustive collection] exposed state; Enabling [others] to [read the collection instance].</summary>
+        /// <summary> Exposes the uniques-only set of all instances.</summary>
+        public static HashSet<IBusinessRuleWithIdentifierString> BusinessRules { get { return _businessRules; } }
+
         // [INSTANCE GENERAL PROPERTY MEMBERS]
+        /// <summary> [_private_public_protected_] instance property for [_member_good_title_] exposed state; Enabling [_others_anyone_inheritors_this] to [_CRUD_ _member_intent_].</summary>
+
+
         #endregion
 
         #region Implementing business logic
         #region Business Logic members
-        /// <structure-section> Centralization of all core business-logic-encapsulating methods; a sole address for any related development.</structure-section>
+        /// <structure-section> Centralization of all core business-logic-encapsulating member; a sole address for any related development.</structure-section>
         // [STATIC MAIN BUSINESS-LOGIC MEMBERS]
+        /// <summary> [_private_public_protected_] static member for [_member_good_title_] feature; Enabling [_others_anyone_inheritors_this] to [_CRUD_ _member_intent_].</summary>
+
 
         // [INSTANCE MAIN BUSINESS-LOGIC MEMBERS]
-        /// <summary> Checks if a generic business rule is a duplicate in the all-instances-set and throws an error if so.</summary>
+        /// <summary> [Public] instance member for [Checking collection-entry Uniqueness] feature; Enabling [others] to [provide a target, upon which uniqueness to the exhaustive collection is checked].</summary>
         public virtual void CheckIsDuplicateGenericly<T, EvaluationInputType, EvaluationOutputType>(T targetOfCheck, BusinessRule<EvaluationInputType, EvaluationOutputType>.GenerateIdentifierString<IBusinessRuleWithIdentifierString> receivedGetIdentifierStringLogic)
         where T : IBusinessRuleWithIdentifierString
         {
@@ -112,18 +96,27 @@ namespace CommonCode.Utility
                 throw new InvalidOperationException($"The creation of a duplicate element is prohibited. Identifier:\n'{identifierString}'.");
             }
         }
+
         #endregion
 
         #region Utility members
         /// <structure-section> Centralization of all core utility-therefore-business-logic-encapsulating members; a sole address for any related development.</structure-section>
         // [STATIC UTILITY MEMBERS]
+        /// <summary> [_private_public_protected_] static utility member for [_member_good_title_] utility feature; Enabling [_others_anyone_inheritors_this] to [_CRUD_ _member_intent_].</summary>
+
 
         // [INSTANCE UTILITY MEMBERS]
+        /// <summary> [_private_public_protected_] instance utility member for [_member_good_title_] utility feature; Enabling [_others_anyone_inheritors_this] to [_CRUD_ _member_intent_].</summary>
+
+
         #endregion
 
         #region Delegate members
         /// <code-structure-section> Centralization of all foundational logic-delegating signatures; a sole address for any delegate-related development.</structure-section>
         // [ DELEGATE MEMBERS]
+        /// <summary> [_private_public_protected_] delegate for [_member_good_title_] delegate; Enabling [_others_anyone_inheritors_this] to [_CRUD_ _member_intent_].</summary>
+
+
         #endregion
         #endregion
 
@@ -131,15 +124,25 @@ namespace CommonCode.Utility
         #region Exception Handling members
         /// <structure-section> Centralization of all core exception-handling-encapsulating members; a sole address for any related development.</structure-section>
         // [STATIC EXCEPTION-HANDLING MEMBERS]
+        /// <summary> [_private_public_protected_] static exception-handling member for [_member_good_title_] exception logic; Enabling [_others_anyone_inheritors_this] to [_CRUD_ _member_intent_].</summary>
+
 
         // [INSTANCE EXCEPTION-HANDLING MEMBERS]
+        /// <summary> [_private_public_protected_] instance exception-handling member for [_member_good_title_] exception logic; Enabling [_others_anyone_inheritors_this] to [_CRUD_ _member_intent_].</summary>
+
+
         #endregion
 
         #region Business rule and Validation members
         /// <structure-section> Centralization of all core business-rule/validation-encapsulating members; a sole address for any related development.</structure-section>
         // [STATIC BUSINESS-RULE/VALIDATION MEMBERS]
+        /// <summary> [_private_public_protected_] static business-rule/validation member for [_member_good_title_] validation logic; Enabling [_others_anyone_inheritors_this] to [_CRUD_ _member_intent_].</summary>
+
 
         // [INSTANCE BUSINESS-RULE/VALIDATION MEMBERS]
+        /// <summary> [_private_public_protected_] instance business-rule/validation member for [_member_good_title_] validation logic; Enabling [_others_anyone_inheritors_this] to [_CRUD_ _member_intent_].</summary>
+
+
         #endregion
         #endregion
 
@@ -147,8 +150,13 @@ namespace CommonCode.Utility
         #region Logging members
         /// <structure-section> Centralization of all core logging-encapsulating members; a sole address for any related development.</structure-section>
         // [STATIC LOGGING MEMBERS]
+        /// <summary> [_private_public_protected_] static logging member for [_member_good_title_] logging logic; Enabling [_others_anyone_inheritors_this] to [_CRUD_ _member_intent_].</summary>
+
 
         // [INSTANCE LOGGING MEMBERS]
+        /// <summary> [_private_public_protected_] instance logging member for [_member_good_title_] logging logic; Enabling [_others_anyone_inheritors_this] to [_CRUD_ _member_intent_].</summary>
+
+
         #endregion
         #endregion
 
@@ -156,38 +164,63 @@ namespace CommonCode.Utility
         #region Presentation Layer members
         /// <structure-section> Centralization of all core presentation-layer-encapsulating members; a sole address for any related development.</structure-section>
         // [STATIC PRESENTATION LAYER: MVC-CONTROLLER/MVVM-VIEWMODEL MEMBERS]
+        /// <summary> [_private_public_protected_] static presentation-layer member for [_member_good_title_] presentation logic; Enabling [_others_anyone_inheritors_this] to [_CRUD_ _member_intent_].</summary>
+
 
         // [INSTANCE PRESENTATION LAYER: MVC-CONTROLLER/MVVM-VIEWMODEL MEMBERS]
+        /// <summary> [_private_public_protected_] instance presentation-layer member for [_member_good_title_] presentation logic; Enabling [_others_anyone_inheritors_this] to [_CRUD_ _member_intent_].</summary>
+
+
         #endregion
 
         #region Data Access Layer members
         /// <structure-section> Centralization of all core data-access-layer-encapsulating members; a sole address for any related development.</structure-section>
         // [STATIC DATA ACCESS LAYER: PERSISTENCE/REPOSITORY/DATACONTEXT/ENTITY MEMBERS]
+        /// <summary> [_private_public_protected_] static data-access-layer member for [_member_good_title_] data-access logic; Enabling [_others_anyone_inheritors_this] to [_CRUD_ _member_intent_].</summary>
+
 
         // [INSTANCE DATA ACCESS LAYER: PERSISTENCE/REPOSITORY/DATACONTEXT/ENTITY MEMBERS]
+        /// <summary> [_private_public_protected_] instance data-access-layer member for [_member_good_title_] data-access logic; Enabling [_others_anyone_inheritors_this] to [_CRUD_ _member_intent_].</summary>
+
+
         #endregion
         #endregion
 
         #region Most definately not in scope
         #region Security members
-        /// <structure-section> Centralization of all core security-encapsulating members; a sole address for any related development.</structure-section>
+        /// <structure-section> Centralization of all core security-layer-encapsulating members; a sole address for any related development.</structure-section>
         // [STATIC SECURITY MEMBERS]
+        /// <summary> [_private_public_protected_] static security-layer member for [_member_good_title_] security logic; Enabling [_others_anyone_inheritors_this] to [_CRUD_ _member_intent_].</summary>
+
 
         // [INSTANCE SECURITY MEMBERS]
+        /// <summary> [_private_public_protected_] instance security-layer member for [_member_good_title_] security logic; Enabling [_others_anyone_inheritors_this] to [_CRUD_ _member_intent_].</summary>
+
+
         #endregion
 
         #region Configuration management members
-        /// <structure-section> Centralization of all core configuration-management-encapsulating members; a sole address for any related development.</structure-section>
+        /// <structure-section> Centralization of all core configuration-management-layer-encapsulating members; a sole address for any related development.</structure-section>
         // [STATIC CONFIGURATION-MANAGEMENT MEMBERS]
+        /// <summary> [_private_public_protected_] static configuration-management-layer member for [_member_good_title_] configuration-management logic; Enabling [_others_anyone_inheritors_this] to [_CRUD_ _member_intent_].</summary>
+
 
         // [INSTANCE CONFIGURATION-MANAGEMENT MEMBERS]
+        /// <summary> [_private_public_protected_] instance configuration-management-layer member for [_member_good_title_] configuration-management logic; Enabling [_others_anyone_inheritors_this] to [_CRUD_ _member_intent_].</summary>
+
+
         #endregion
 
         #region Extension-method members
         /// <structure-section> Centralization of all core extension-method-encapsulating members; a sole address for any related development.</structure-section>
         // [STATIC EXTENSION MEMBERS]
+        /// <summary> [_private_public_protected_] static extension-method member for [_member_good_title_] extension-method logic; Enabling [_others_anyone_inheritors_this] to [_CRUD_ _member_intent_].</summary>
+
 
         // [INSTANCE EXTENSION MEMBERS]
+        /// <summary> [_private_public_protected_] instance extension-method member for [_member_good_title_] extension-method logic; Enabling [_others_anyone_inheritors_this] to [_CRUD_ _member_intent_].</summary>
+
+
         #endregion
         #endregion
     }

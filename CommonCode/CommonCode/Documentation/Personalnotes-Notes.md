@@ -12,4 +12,11 @@
 
 - Perform "expanding to definitions" by pressing `[CTRL + M]` and `[CTRL + P]`
 
-# 
+#### Manager-Factory relation:
+
+* Product-Factory-Manager concept: 
+  - The creation and governance of a class (product) are 
+    separate (SoC) and thereby dependency-inversed (DIP)
+  * Note: The Factory instantiates the Manager, 
+    of which the Manager makes sure this is done correctly
+* Standalone methods encapsulate & insulate singular intentions
