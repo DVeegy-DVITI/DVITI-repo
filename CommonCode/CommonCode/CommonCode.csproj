@@ -49,12 +49,15 @@
     <Compile Include="Documentation\TODOs_Actual.cs" />
     <Compile Include="BusinessRules\BusinessRule.cs" />
     <Compile Include="BusinessRules\BusinessRuleBase.cs" />
-    <Compile Include="Interfaces\IBusinessRuleEvaluationStrategy.cs" />
-    <Compile Include="Interfaces\IBusinessRule.cs" />
-    <Compile Include="Interfaces\IBusinessRuleWithIdentifierString.cs" />
+    <Compile Include="Interfaces\Strategy\IBusinessRuleEvaluationStrategy.cs" />
+    <Compile Include="Interfaces\Strategy\IBusinessRuleWithEvaluationStrategy.cs" />
+    <Compile Include="Interfaces\Businessrule\IBusinessRule.cs" />
+    <Compile Include="Interfaces\PurposeIdentifier\IBusinessRuleWithPurposeIdentifier.cs" />
+    <Compile Include="Interfaces\PurposeIdentifier\IPurposeIdentifier.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utility\BusinessRuleFactory.cs" />
     <Compile Include="Utility\BusinessRuleManager.cs" />
+    <Compile Include="Utility\PurposeIdentifier.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Documentation\CodeExplanations.docx" />

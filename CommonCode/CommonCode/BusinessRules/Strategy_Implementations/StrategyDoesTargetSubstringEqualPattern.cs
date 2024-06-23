@@ -2,40 +2,8 @@
 
 namespace PhoneNumberAnalysis
 {
-    internal class StrategyDoesTargetSubstringEqualPattern : IBusinessRuleEvaluationStrategy<(string target, int targetSubstringStart, int targetSubstringLength, string pattern), bool>
+    internal class StrategyDoesTargetSubstringEqualPattern /*: IBusinessRuleWithEvaluationStrategy<(string target, int targetSubstringStart, int targetSubstringLength, string pattern), bool>*/
     {
-        #region Personal notes
-        #region Intent
-        /// Intent: This sectional structure of the implied logical flow assures SRP-governed coverage of the entire paradigm of C# application development.
-        #endregion
-        #region Notes
-        /// Note: How to collapse all of these regions properly:
-        /// * Go to Tools > Options > Text Editor > C# > Advanced > Outlining and check "Collapse #regions when collapsing to definitions".
-        /// * Perform "collapsing to definitions" by pressing [CTRL + M] and [CTRL + O] to collapse, replace [O] by [P] to expand.
-
-        /// Note: This sectional structure assures that any developer is able to match a specific coding task to any reasonable area of this class.
-        /// Note: This sectional structure also assures that any developer is able to implement any coding task in accordance to a guiding, and verbose structure.
-        /// Note: This sectional structure finally assures me that all existing, and future, development is compliant with my holistic SRP-central coding creed.
-        #endregion
-
-        #region Rules
-        /// Rule: Check the PersonalCodingStandards file whenever possible.
-        /// Reason: There is no back-propagation from the original file to all copy-paste's in all classes.
-        /// 
-        /// Rule: Use explicit interface implementation syntax.
-        /// Reason: Explicit interface implementations cannot be inherited (prevents dependencies), and clearly differ from non-interface members.
-        /// 
-        /// Rule: Avoid using automatic properties.
-        /// Reason: They hide initialization logic that belongs to constructors, and has to be rewritten whenever logic alteration is necessary.
-        /// 
-        /// Rule: Delegate any static and instance variable initialization to the respective constructors.
-        /// Reason: Any architecture is more robust if one scope handles one responsibility; especially because that's a constructor's literal job.
-        #endregion
-        #endregion
-        #region TODO's
-        /// TODO: Decide on a line between governance of general properties (or other members) and responsibility-specific members (f.e. MVC members).
-        #endregion
-
         #region Backing field members
         /// <structure-section> Centralization of all foundational data-encapsulating declarations; a sole address for any data-related development.</structure-section>
         // [STATIC BACKING FIELD MEMBERS]
@@ -173,39 +141,39 @@ namespace PhoneNumberAnalysis
 
         // [STATIC Backing Fields]
         // [INSTANCE Backing Fields]
-        private string _pattern;
-        private string _target;
-        private (int targetSubstringStart, int targetSubstringLength) _targetSubstringData;
+        //private string _pattern;
+        //private string _target;
+        //private (int targetSubstringStart, int targetSubstringLength) _targetSubstringData;
 
         // [STATIC Constructor member]
-        static StrategyDoesTargetSubstringEqualPattern()
-        {
-            // [Instantiate backing fields]
-            // [Instantiate (auto) properties]
-        }
+        //static StrategyDoesTargetSubstringEqualPattern()
+        //{
+        //    // [Instantiate backing fields]
+        //    // [Instantiate (auto) properties]
+        //}
         // [INSTANCE Constructor members]
-        public StrategyDoesTargetSubstringEqualPattern(string target, int targetSubstringStart, int targetSubstringLength, string pattern)
-        {
-            // [Instantiate backing fields]
-            _target = target;
-            _pattern = pattern;
-            _targetSubstringData = (targetSubstringStart, targetSubstringLength);
-            // [Instantiate (auto) properties]
-        }
+        //public StrategyDoesTargetSubstringEqualPattern(string target, int targetSubstringStart, int targetSubstringLength, string pattern)
+        //{
+        //    // [Instantiate backing fields]
+        //    _target = target;
+        //    _pattern = pattern;
+        //    _targetSubstringData = (targetSubstringStart, targetSubstringLength);
+        //    // [Instantiate (auto) properties]
+        //}
 
         // [STATIC Property members]
         // [INSTANCE Property members]
-        public string Pattern { get { return _pattern; } protected set { _pattern = value; } }
-        public string Target { get { return _target; } protected set { _target = value; } }
-        public (int targetSubstringStart, int targetSubstringLength) TargetSubstringData { get { return _targetSubstringData; } protected set { _targetSubstringData = value; } }
+        //public string Pattern { get { return _pattern; } protected set { _pattern = value; } }
+        //public string Target { get { return _target; } protected set { _target = value; } }
+        //public (int targetSubstringStart, int targetSubstringLength) TargetSubstringData { get { return _targetSubstringData; } protected set { _targetSubstringData = value; } }
 
         // [STATIC Method members]
         // [INSTANCE Method members]
-        private bool CheckIfTargetSubstringEqualsPattern()
-        {
-            string substring = _target.Substring(TargetSubstringData.targetSubstringStart, TargetSubstringData.targetSubstringLength);
-            return substring.Equals(_pattern);
-        }
+        //private bool CheckIfTargetSubstringEqualsPattern()
+        //{
+        //    string substring = _target.Substring(TargetSubstringData.targetSubstringStart, TargetSubstringData.targetSubstringLength);
+        //    return substring.Equals(_pattern);
+        //}
 
         // [STATIC Helper Method members]
         // [INSTANCE Helper Method members]
@@ -214,9 +182,9 @@ namespace PhoneNumberAnalysis
         // [STATIC ErrorHandler Method members]
 
         // [Interface Members]
-        public bool ExecuteStrategy()
-        {
-            return CheckIfTargetSubstringEqualsPattern();
-        }
+        //public bool ExecuteStrategy()
+        //{
+        //    return CheckIfTargetSubstringEqualsPattern();
+        //}
     }
 }
