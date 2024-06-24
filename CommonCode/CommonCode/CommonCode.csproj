@@ -50,9 +50,9 @@
     <Compile Include="BusinessRules\BusinessRule.cs" />
     <Compile Include="BusinessRules\BusinessRuleBase.cs" />
     <Compile Include="Interfaces\Strategy\IBusinessRuleEvaluationStrategy.cs" />
-    <Compile Include="Interfaces\Strategy\IBusinessRuleWithEvaluationStrategy.cs" />
+    <Compile Include="Interfaces\Strategy\IBusinessRuleHavingEvaluationStrategy.cs" />
     <Compile Include="Interfaces\Businessrule\IBusinessRule.cs" />
-    <Compile Include="Interfaces\PurposeIdentifier\IBusinessRuleWithPurposeIdentifier.cs" />
+    <Compile Include="Interfaces\PurposeIdentifier\IBusinessRuleHavingPurposeIdentifier.cs" />
     <Compile Include="Interfaces\PurposeIdentifier\IPurposeIdentifier.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utility\BusinessRuleFactory.cs" />

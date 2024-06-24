@@ -43,7 +43,6 @@ namespace CommonCode.Utility
         static BusinessRuleFactory()
         {
             // [Initialize backing fields: only initialization, no declaration or processing!]
-            _businessRuleManagerInstance = default;
             _businessRuleManagerInstance = BusinessRuleManager.BusinessRuleManagerInstance;
         }
 
@@ -76,7 +75,7 @@ namespace CommonCode.Utility
         /// <structure-section> Centralization of all core business-logic-encapsulating member; a sole address for any related development.</structure-section>
         
         // [STATIC MAIN BUSINESS-LOGIC MEMBERS]
-        /// <summary> [_private_public_protected_expl_interface_impl_private_] static member for [_member_good_title_] feature; Enabling [_others_anyone_inheritors_this] to [_CRUD_ _member_intent_].</summary>
+        /// <summary> [_private_public_protected_expl_interface_impl_private_] static member for [_member_good_title_] feature; Enabling [_others_anyone_inheritors_this_internals] to [_CRUD_ _member_intent_].</summary>
 
         // [INSTANCE MAIN BUSINESS-LOGIC MEMBERS]
         /// <summary> [Public] instance member for [creating business rules feature]; Enabling [others] to [create products using the factory].</summary>
@@ -89,27 +88,32 @@ namespace CommonCode.Utility
             #endregion
             #region Process a Method flow
             /// <structure-section> [PROCESS-SEGMENT] EMPLOY DEFINED MEMBERS IN PROCESSES
+            
+            // Try to create a new manufactured product with supplied arguments, post an error if unsuccessful.
             try
             {
                 newBusinessRule = new BusinessRule<EvaluationInputType, EvaluationOutputType>(identifier, evaluationStrategy);
             }
-            catch (Exception)
+            catch (Exception exception)
             {
-                throw new NotImplementedException("Something went wrong during a business rule constructor call");
+                throw new NotImplementedException($"Something went wrong during a business rule constructor call.\nErrormessage: {exception.Message}");
             }
 
+            // Try to pass datachecks for a newly manufactured product, post an error if unsuccessful.
             try
             {
                 ProcessDataChecksOnInput(newBusinessRule);
             }
-            catch (Exception)
+            catch (Exception exception)
             {
-                throw new NotImplementedException("Something went wrong during a business rule datachecks call");
+                throw new NotImplementedException($"Something went wrong during a business rule datachecks call.\nErrormessage: {exception.Message}");
             }
 
             #endregion
             #region Conclude a Method flow
             /// <structure-section> [CONCLUDE-SEGMENT] REALISE THE METHOD'S INTENT AND FINALIZE
+            
+            _businessRuleManagerInstance.AddToSetIfUnique(newBusinessRule);
             return newBusinessRule;
 
             #endregion
@@ -138,31 +142,6 @@ namespace CommonCode.Utility
             #endregion
             #region Conclude a Method flow
             /// <structure-section> [CONCLUDE-SEGMENT] REALISE THE METHOD'S INTENT AND FINALIZE
-            PerformIsDuplicateInRepositoryCheck(newBusinessRule);
-
-            #endregion
-        }
-        /// <summary> [Protected] instance utility member for [discovering repository duplicates] utility feature; Enabling [inheritors] to [filter a repository for target duplicates].</summary>
-        protected virtual void PerformIsDuplicateInRepositoryCheck<EvaluationInputType, EvaluationOutputType>(BusinessRule<EvaluationInputType, EvaluationOutputType> newBusinessRule)
-        {
-            #region Define a Method flow
-            /// <structure-section> [DEFINE-SEGMENT] DECLARE AND INITIALIZE DATA AND/OR LOGIC
-            /// <summary> [Delegate] to [compute] a/the [identifier string for this business rule].</summary>
-            BusinessRuleBase<EvaluationInputType, EvaluationOutputType>.GenerateIdentifierString<IBusinessRuleWithPurposeIdentifier> providedGetIdentifierStringLogic = 
-                (businessRule) => businessRule.PurposeIdentifierObject.ToString();
-
-            #endregion
-
-            #region Process a Method flow
-            /// <structure-section> [PROCESS-SEGMENT] EMPLOY DEFINED MEMBERS IN PROCESSES
-
-
-            #endregion
-
-            #region Conclude a Method flow
-            /// <structure-section> [CONCLUDE-SEGMENT] REALISE THE METHOD'S INTENT AND FINALIZE
-            /// <summary> [Execution] of [duplicate checking] to [confirm the uniqueness of the new business rule].</summary>
-            _businessRuleManagerInstance.CheckIsDuplicateGenericly(newBusinessRule, providedGetIdentifierStringLogic);
 
             #endregion
         }

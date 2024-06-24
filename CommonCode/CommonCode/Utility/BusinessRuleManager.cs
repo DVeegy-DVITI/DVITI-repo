@@ -2,6 +2,7 @@
 using CommonCode.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 namespace CommonCode.Utility
 {
@@ -17,23 +18,22 @@ namespace CommonCode.Utility
         /// <summary> [Private] static backing field for [business rule manager] internal state; Enabling [this] to [read the manager instance].</summary>
         private static BusinessRuleManager _businessRuleManagerInstance;
 
-        /// <summary> [private] static backing field for [business rule exhaustive collection] internal state; Enabling [this] to [read the collection instance].</summary>
-        private static HashSet<IBusinessRuleWithPurposeIdentifier> _businessRules;
-
         // [INSTANCE BACKING FIELD MEMBERS]
+        /// <summary> [private] instance backing field for [business rule exhaustive collection] internal state; Enabling [this] to [read the collection instance].</summary>
+        private HashSet<IBusinessRuleHavingPurposeIdentifier> _businessRules;
+
         #endregion
 
         #region Constructors
         #region Static-data constructor member
         /// <structure-section> Encapsulation of all foundational static member initializations via this default static constructor.</structure-section>
-        
+
         // [STATIC CONSTRUCTOR MEMBER]
         /// <summary> default static constructor handling all static member initializations.</summary>
         static BusinessRuleManager()
         {
             // [Initialize backing fields: only initialization, no declaration or processing!]
             _businessRuleManagerInstance = default;
-            _businessRules = new HashSet<IBusinessRuleWithPurposeIdentifier>();
         }
 
         #endregion
@@ -46,6 +46,7 @@ namespace CommonCode.Utility
         private BusinessRuleManager()
         {
             // [Initialize backing fields: only initialization, no declaration or processing!]
+            _businessRules = new HashSet<IBusinessRuleHavingPurposeIdentifier>();
         }
 
         #endregion
@@ -68,29 +69,32 @@ namespace CommonCode.Utility
             }
         }
 
-        /// <summary> Exposes the uniques-only set of all instances.</summary>
-        public static HashSet<IBusinessRuleWithPurposeIdentifier> BusinessRules { get { return _businessRules; } }
-
         // [INSTANCE GENERAL PROPERTY MEMBERS]
+
+        /// <summary> [Public] instance property for [Readonly Exhaustive Set] exposed state; Enabling [others] to [read the to-read-only-transformed exhaustive set instance].</summary>
+        /// Note: The "add" extension method on this set can only be used by the constructor, unaware developers will duplicate by trying to also manually add an item to this set.
+        public ReadOnlyCollection<IBusinessRuleHavingPurposeIdentifier> BusinessRulesExhaustiveReadonly { get { return new List<IBusinessRuleHavingPurposeIdentifier>(_businessRules).AsReadOnly(); } }
+
+        /// <summary> [Internal] instance property for [Mutable Exhaustive Set] exposed state; Enabling [internals] to [modify/read the mutable exhaustive set instance].</summary>
+        internal HashSet<IBusinessRuleHavingPurposeIdentifier> BusinessRulesExhaustiveMutable { get { return new HashSet<IBusinessRuleHavingPurposeIdentifier>(_businessRules); } }
 
         #endregion
 
         #region Implementing business logic
         #region Business Logic members
         /// <structure-section> Centralization of all core business-logic-encapsulating member; a sole address for any related development.</structure-section>
-        
+
         // [STATIC MAIN BUSINESS-LOGIC MEMBERS]
 
         // [INSTANCE MAIN BUSINESS-LOGIC MEMBERS]
         /// <summary> [Public] instance member for [Checking collection-entry Uniqueness] feature; Enabling [others] to [provide a target, upon which uniqueness to the exhaustive collection is checked].</summary>
-        public virtual void CheckIsDuplicateGenericly<T, EvaluationInputType, EvaluationOutputType>(T targetOfCheck, BusinessRule<EvaluationInputType, EvaluationOutputType>.GenerateIdentifierString<IBusinessRuleWithPurposeIdentifier> receivedGetIdentifierStringLogic)
-        where T : IBusinessRuleWithPurposeIdentifier
+        public virtual void AddToSetIfUnique<EvaluationInputType, EvaluationOutputType>(IBusinessRule<EvaluationInputType, EvaluationOutputType> targetOfCheck)
         {
-            bool wasItemAdded = BusinessRules.Add(targetOfCheck);
-            if (!wasItemAdded)
+            bool WasItemUniqueAndAdded = BusinessRulesExhaustiveMutable.Add(targetOfCheck);
+            if (!WasItemUniqueAndAdded)
             {
-                string identifierString = receivedGetIdentifierStringLogic(targetOfCheck);
-                throw new InvalidOperationException($"The creation of a duplicate element is prohibited. Identifier:\n'{identifierString}'.");
+                string identifierString = targetOfCheck.PurposeIdentifierObject.PurposeIdentifier;
+                throw new InvalidOperationException($"The creation of a duplicate element is prohibited. Supplied identifier:\n'{identifierString}'.");
             }
         }
 

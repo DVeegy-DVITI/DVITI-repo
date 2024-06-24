@@ -16,6 +16,8 @@ namespace CommonCode.BusinessRules
         // [STATIC BACKING FIELD MEMBERS]
 
         // [INSTANCE BACKING FIELD MEMBERS]
+        /// Note: abstract classes require private constructors; they still assume initialization responsibilities over their baseclass members.
+
         /// <summary> [Private] instance backing field for [business rule identifier] internal state; Enabling [this] to [read a verbose string about the intent of a business rule].</summary>
         private IPurposeIdentifier _purposeIdentifierObject;
         /// <summary> [Private] instance backing field for [business rule strategy] internal state; Enabling [this] to [read a generic-type-delayed signature for business-rule evaluation].</summary>
@@ -56,10 +58,10 @@ namespace CommonCode.BusinessRules
 
         // [INSTANCE GENERAL PROPERTY MEMBERS]
         /// <summary> [_private_public_protected_expl_interface_impl_private_] instance property for [identifier interface explicit impl.] exposed state; Enabling [this] to [read the identifier instance].</summary>
-        IPurposeIdentifier IBusinessRuleWithPurposeIdentifier.PurposeIdentifierObject { get; }
+        IPurposeIdentifier IBusinessRuleHavingPurposeIdentifier.PurposeIdentifierObject { get; }
 
         /// <summary> [_private_public_protected_expl_interface_impl_private_] instance property for [strategy interface explicit impl.] exposed state; Enabling [this] to [read the strategy instance].</summary>
-        IBusinessRuleEvaluationStrategy<EvaluationInputType, EvaluationOutputType> IBusinessRuleWithEvaluationStrategy<EvaluationInputType, EvaluationOutputType>.EvaluationStrategy { get; }
+        IBusinessRuleEvaluationStrategy<EvaluationInputType, EvaluationOutputType> IBusinessRuleHavingEvaluationStrategy<EvaluationInputType, EvaluationOutputType>.EvaluationStrategy { get; }
 
         #endregion
 
@@ -72,7 +74,7 @@ namespace CommonCode.BusinessRules
 
         // [INSTANCE MAIN BUSINESS-LOGIC MEMBERS]
         /// <summary> [Expl_interface_impl_private_] instance member for [explicit strategy wrapper] feature; Enabling [others] to [Invoke the handling of the abstract strategy execution].</summary>
-        EvaluationOutputType IBusinessRuleWithEvaluationStrategy<EvaluationInputType, EvaluationOutputType>.ExecuteStrategyLogicWrapper(EvaluationInputType evaluationInput)
+        EvaluationOutputType IBusinessRuleHavingEvaluationStrategy<EvaluationInputType, EvaluationOutputType>.ExecuteStrategyLogicWrapper(EvaluationInputType evaluationInput)
         {
             EvaluationOutputType toOverrideableMethodDelegatedOutput = OverrideableExecuteStrategyLogic<EvaluationInputType, EvaluationOutputType>(evaluationInput);
             return toOverrideableMethodDelegatedOutput;

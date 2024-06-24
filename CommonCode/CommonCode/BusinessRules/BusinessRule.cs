@@ -24,7 +24,7 @@ namespace CommonCode.BusinessRules
         #region Constructors
         #region Static-data constructor member
         /// <structure-section> Encapsulation of all foundational static member initializations via this default static constructor.</structure-section>
-        
+
         // [STATIC CONSTRUCTOR MEMBER]
         /// <summary> default static constructor handling all static member initializations.</summary>
         static BusinessRule()
@@ -40,7 +40,7 @@ namespace CommonCode.BusinessRules
         
         // [INSTANCE CONSTRUCTOR MEMBERS]
         /// <summary> argumented instance constructor handling (collectively) all instance member initializations.</summary>
-        public BusinessRule(IPurposeIdentifier purposeIdentifierObject, IBusinessRuleEvaluationStrategy<EvaluationInputType, EvaluationOutputType> evaluationStrategy): base(purposeIdentifierObject, evaluationStrategy)
+        internal BusinessRule(IPurposeIdentifier purposeIdentifierObject, IBusinessRuleEvaluationStrategy<EvaluationInputType, EvaluationOutputType> evaluationStrategy): base(purposeIdentifierObject, evaluationStrategy)
         {
             // [Initialize backing fields: only initialization, no declaration or processing!]
         }
